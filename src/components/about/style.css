@@ -1,0 +1,8 @@
+.about {
+    margin-bottom: 5em;
+}
+
+.about ul li {
+    font-style: italic;
+    font-weight: bold;
+}
