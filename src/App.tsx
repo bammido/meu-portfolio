@@ -1,9 +1,38 @@
+import { useEffect } from 'react'
 import './App.css'
 import About from './components/about'
 import Experience from './components/experience'
-import whatsapp from './assets/images/whatsapp.svg'
 
 function App() {
+  useEffect(() => {
+    const sections = document.querySelectorAll("section");
+  const navItems = document.querySelectorAll("nav a");
+
+  const options = {
+    root: null,
+    rootMargin: "0px",
+    threshold: 0.5,
+  };  
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        const targetId = entry.target.getAttribute("id");
+        navItems.forEach((navItem) => {
+          navItem.classList.remove("active");
+          if (navItem.getAttribute("href") === `#${targetId}`) {
+            navItem.classList.add("active");
+          }
+        });
+      }
+    });
+  }, options);
+  
+
+  sections.forEach((section) => {
+    observer.observe(section);
+  });
+  }, [])
 
   return (
     <>
@@ -15,18 +44,18 @@ function App() {
             <p>Sou um desenvolvedor Fullstack dedicado e entusiasta.</p>
           </div>
           <nav className='nav'>
-            <div>
+          <a href="#about">
               <div className='dash' />
-              <a href="#about">sobre</a>
-            </div>
-            <div>
+              <span>sobre</span>
+            </a>
+            <a href="#experience">
               <div className='dash' />
-              <a href="#experience">experiência</a>
-            </div>
-            <div>
+              <span>experiência</span>
+            </a>
+            <a href="#projects">
               <div className='dash' />
-              <a href="#projects">projetos</a>
-            </div>
+              <span>projetos</span>
+            </a>
           </nav>
           <div className='social-media'>
             <a target="_blank" href="https://wa.me/5584996495206"><i className="fi fi-brands-whatsapp"/></a>
@@ -37,6 +66,7 @@ function App() {
         <div className='content'>
           <About />
           <Experience />
+          <p>Estou constantemente em busca de oportunidades empolgantes que me permitam aplicar minhas habilidades, paixões e conhecimento enquanto cresço como desenvolvedor e profissional de tecnologia. Seja através de desafios técnicos complexos, colaboração em equipe ou aprendizado contínuo, estou pronto para enfrentar novas jornadas e alcançar resultados excepcionais.</p>
         </div>
       </div>
     </>

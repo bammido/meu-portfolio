@@ -32,7 +32,8 @@
   flex-direction: column;
 }
 
-.nav > div {
+.nav > a {
+  transition: 300ms;
   display: flex;
   align-items: center;
   width: fit-content;
@@ -53,9 +54,21 @@ p {
   transition: 300ms;
   width: 10px;
   border: 1px solid white;
+  margin-right: 0.4em;
 }
 
-.nav > div:hover .dash{
+.nav > a:hover .dash{
+  border-color: #4D54D9;
+  transition: 300ms;
+  width: 25px;
+}
+
+.active span{
+  transition: 300ms;
+  color: #4D54D9;
+}
+
+.active .dash{
   border-color: #4D54D9;
   transition: 300ms;
   width: 25px;
