@@ -1,5 +1,7 @@
 import './App.css'
 import About from './components/about'
+import Experience from './components/experience'
+import whatsapp from './assets/images/whatsapp.svg'
 
 function App() {
 
@@ -15,29 +17,26 @@ function App() {
           <nav className='nav'>
             <div>
               <div className='dash' />
-              <a>sobre</a>
+              <a href="#about">sobre</a>
             </div>
             <div>
               <div className='dash' />
-              <a>experiência</a>
+              <a href="#experience">experiência</a>
             </div>
             <div>
               <div className='dash' />
-              <a>projetos</a>
+              <a href="#projects">projetos</a>
             </div>
           </nav>
-          <div className='social-media'>social media icons</div>
+          <div className='social-media'>
+            <a target="_blank" href="https://wa.me/5584996495206"><i className="fi fi-brands-whatsapp"/></a>
+            <a target="_blank" href="https://www.linkedin.com/in/bryan-fernandes-de-oliveira/"><i className="fi fi-brands-linkedin" /></a>
+            <a target="_blank" href="https://github.com/bammido"><i className="fi fi-brands-github" /></a>
+          </div>
         </div>
         <div className='content'>
           <About />
-          <h2>Experiência</h2>
-          <p>teste</p>
-          <p>teste</p>
-          <p>teste</p>
-          <p>teste</p>
-          <p>teste</p>
-          <p>teste</p>
-          <p>teste</p>
+          <Experience />
         </div>
       </div>
     </>

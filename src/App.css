@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,600;1,700&display=swap');
 
+@import url('https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css');
+
 .main {
   display: flex;
 
@@ -11,6 +13,20 @@
   align-self: end;
 }
 
+.social-media i {
+  transition: 300ms;
+  font-size: 25px;
+  margin-right: 15px;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.social-media i:hover {
+  transition: 300ms;
+  opacity: 1;
+  filter: contrast(200%);
+}
+
 .nav {
   display: flex;
   flex-direction: column;
@@ -19,6 +35,7 @@
 .nav > div {
   display: flex;
   align-items: center;
+  width: fit-content;
 }
 
 p {
@@ -39,11 +56,12 @@ p {
 }
 
 .nav > div:hover .dash{
+  border-color: #4D54D9;
   transition: 300ms;
   width: 25px;
 }
 
-h1, h2 {
+h1, h2, h3 {
   margin: 0.2em 0;
   font-family: 'Josefin Sans', sans-serif;
   font-style: italic;
@@ -80,20 +98,12 @@ h1, h2 {
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 @media screen and (max-width: 980px) {
@@ -106,13 +116,10 @@ h1, h2 {
   }
 
   .resume {
-    max-height: 300px;
+    position: relative;
+    max-height: 400px;
     margin-bottom: 5em;
   }
-}
-
-.card {
-  padding: 2em;
 }
 
 .read-the-docs {

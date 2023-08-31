@@ -1,0 +1,43 @@
+.experience {
+    display: flex;
+    flex-direction: column;
+}
+
+.experience-card {
+    display: flex;
+    cursor: pointer;
+    padding: 1em;
+}
+
+.experience-card:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.experience-card p {
+    color: #fff;
+}
+
+.period {
+    margin-right: 1em;
+    align-self: center;
+}
+
+.technology{
+    margin-right: 5px;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 20px;
+    padding: 0.4em 0.5em;
+    background-color:rgba(100, 108, 255, 0.1);
+}
+
+.technologies{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 600px) {
+    .experience-card {
+        flex-direction: column;
+    }
+}

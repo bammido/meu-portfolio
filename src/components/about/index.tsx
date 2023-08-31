@@ -1,7 +1,8 @@
 import "./style.css"
+import meuCv from '../../assets/cv_bryan_fernandes2.pdf'
 
 export default function About() {
-    return <div className="about">
+    return <div className="about" id="about">
         <p>Sou um entusiasta de tecnologia e desenvolvedor Fullstack apaixonado por criar soluções inovadoras e enfrentar desafios complexos. Atualmente, estou perseguindo meu diploma em Ciências da Computação, buscando aprofundar meu conhecimento técnico e aplicá-lo em projetos significativos.</p>
         <p>Estou constantemente em busca de oportunidades empolgantes que me permitam aplicar minhas habilidades, paixões e conhecimento enquanto cresço como desenvolvedor e profissional de tecnologia. Seja através de desafios técnicos complexos, colaboração em equipe ou aprendizado contínuo, estou pronto para enfrentar novas jornadas e alcançar resultados excepcionais.</p>
         
@@ -16,5 +17,6 @@ export default function About() {
             <li>Foco em Qualidade e Excelência</li>
         </ul>
         <p>Quando não estou no computador, costumo me exercitar, jogar fortnite ou sair com os amigos.</p>
+        <a href="meuCv" download="bryan_fernandes-cv.pdf">veja meu cv</a>
     </div>
 }
