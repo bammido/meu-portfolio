@@ -17,6 +17,6 @@ export default function About() {
             <li>Foco em Qualidade e Excelência</li>
         </ul>
         <p>Quando não estou no computador, costumo me exercitar, jogar fortnite ou sair com os amigos.</p>
-        <a href="meuCv" download="bryan_fernandes-cv.pdf">veja meu cv</a>
+        <a href={meuCv} download="bryan_fernandes-cv.pdf">veja meu cv</a>
     </section>
 }
