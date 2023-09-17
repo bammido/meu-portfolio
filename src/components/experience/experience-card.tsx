@@ -1,4 +1,4 @@
-import TechnologyCard from "./technology-card"
+import TechnologyCard from "../technology-card/technology-card"
 
 export default function ExperienceCard({}){
     const technologies = ["React", "Node", "Typescript", "Next", "SQL sever", "Type ORM", "Sequelize", "Gitflow"]

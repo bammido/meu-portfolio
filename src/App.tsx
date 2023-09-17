@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 import './App.css'
 import About from './components/about'
 import Experience from './components/experience'
+import Projects from './components/projects'
 
 function App() {
   useEffect(() => {
@@ -66,6 +67,7 @@ function App() {
         <div className='content'>
           <About />
           <Experience />
+          <Projects />
           <p>Estou constantemente em busca de oportunidades empolgantes que me permitam aplicar minhas habilidades, paixões e conhecimento enquanto cresço como desenvolvedor e profissional de tecnologia. Seja através de desafios técnicos complexos, colaboração em equipe ou aprendizado contínuo, estou pronto para enfrentar novas jornadas e alcançar resultados excepcionais.</p>
         </div>
       </div>

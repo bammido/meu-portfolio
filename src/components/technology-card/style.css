@@ -1,0 +1,8 @@
+.technology{
+    margin-right: 5px;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 20px;
+    padding: 0.4em 0.5em;
+    background-color:rgba(100, 108, 255, 0.1);
+}
