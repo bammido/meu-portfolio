@@ -4,7 +4,7 @@
 
 Portfolio Pessoal com minhas experiências como desenvolvedor e alguns projetos selecionados.
 
-## 🎨 Color Reference
+## 🎨 Cores
 
 | Color          | Hex                                                                |
 | -------------- | ------------------------------------------------------------------ |
