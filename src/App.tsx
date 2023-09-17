@@ -69,6 +69,7 @@ function App() {
           <Experience />
           <Projects />
           <p>Estou constantemente em busca de oportunidades empolgantes que me permitam aplicar minhas habilidades, paixões e conhecimento enquanto cresço como desenvolvedor e profissional de tecnologia. Seja através de desafios técnicos complexos, colaboração em equipe ou aprendizado contínuo, estou pronto para enfrentar novas jornadas e alcançar resultados excepcionais.</p>
+          <p>Design baseado em: <a href='https://brittanychiang.com/'>Brittany Chiang</a> </p>
         </div>
       </div>
     </>
