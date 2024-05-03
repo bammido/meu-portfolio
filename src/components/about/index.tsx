@@ -1,5 +1,5 @@
 import "./style.css"
-import meuCv from '../../assets/cv_bryan_fernandes2.pdf'
+import meuCv from '../../assets/cv_bryan_fernandes.pdf'
 
 export default function About() {
     return <section className="about" id="about">
