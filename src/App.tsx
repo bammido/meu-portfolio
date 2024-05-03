@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 import './App.css'
 import About from './components/about'
 import Experience from './components/experience'
+import Projects from './components/projects'
 // import Projects from './components/projects'
 
 function App() {
@@ -41,8 +42,8 @@ function App() {
         <div className='resume'>
           <div className='introduction'>
             <h1>Bryan Fernandes</h1>
-            <h2>Fullstack developer</h2>
-            <p>Sou um desenvolvedor Fullstack dedicado e entusiasta.</p>
+            <h2>Frontend developer</h2>
+            <p>Sou um desenvolvedor Frontend dedicado e entusiasta.</p>
           </div>
           <nav className='nav'>
           <a href="#about">
@@ -53,10 +54,10 @@ function App() {
               <div className='dash' />
               <span>experiência</span>
             </a>
-            {/* <a href="#projects">
+            <a href="#projects">
               <div className='dash' />
               <span>projetos</span>
-            </a> */}
+            </a>
           </nav>
           <div className='social-media'>
             <a target="_blank" href="https://wa.me/5584996495206"><i className="fi fi-brands-whatsapp"/></a>
@@ -67,7 +68,7 @@ function App() {
         <div className='content'>
           <About />
           <Experience />
-          {/* <Projects /> */}
+          <Projects />
           <p>Estou constantemente em busca de oportunidades empolgantes que me permitam aplicar minhas habilidades, paixões e conhecimento enquanto cresço como desenvolvedor e profissional de tecnologia. Seja através de desafios técnicos complexos, colaboração em equipe ou aprendizado contínuo, estou pronto para enfrentar novas jornadas e alcançar resultados excepcionais.</p>
           <p>Design baseado em Brittany Chiang </p>
         </div>

@@ -6,8 +6,18 @@ export default function About() {
         <h2>Sobre mim</h2>
         <p>Sou um entusiasta de tecnologia e desenvolvedor Fullstack apaixonado por criar soluções inovadoras e enfrentar desafios complexos. Atualmente, estou perseguindo meu diploma em Ciências da Computação, buscando aprofundar meu conhecimento técnico e aplicá-lo em projetos significativos.</p>
         
-        {/* <p>Tenho um compromisso inabalável com a qualidade em tudo o que faço. Escrevo código limpo e bem documentado, visando não apenas a funcionalidade, mas também a legibilidade e a manutenibilidade a longo prazo. Minha dedicação à excelência se reflete em cada aspecto do meu trabalho.</p> */}
-        {/* <p>Com um ano de experiência sólida como estagiário da <a href="https://www.frameworkdigital.com.br/">FrameWork Digital</a>, trabalhando em uma variedade de projetos desafiadores. Minha paixão pela tecnologia e minha capacidade de aprender rapidamente me permitiram adquirir conhecimentos abrangentes em desenvolvimento web e contribuir de maneira significativa para equipes de desenvolvimento colaborativas.</p> */}
+        
+        <h3>Principais Tecnologias</h3>
+        <ul>
+            <li>Next</li>
+            <li>React</li>
+            <li>Typescript/Javascript</li>
+            <li>Tailwind</li>
+            <li>git</li>
+            <li>Sql</li>
+            <li>Node</li>
+        </ul>
+
         <h3>Alguns pontos chave</h3>
         <ul>
             <li>Experiência Prática e Aprendizado Ágil</li>
