@@ -7,7 +7,7 @@ export default function Projects() {
 
     const projects = [
         {
-            projectLink: "https://eleganza-6jmvsrkqf-bammidos-projects.vercel.app/",
+            projectLink: "https://eleganza-seven.vercel.app/",
             projectIMG: eleganzaLogo,
             projectTitle: "Eleganza",
             projectResume: "Um espaço onde a moda transcende o simples vestir para se tornar uma expressão de estilo pessoal e elegância refinada. No coração do Eleganza reside a crença de que a moda é mais do que apenas roupas; é uma forma de arte em constante evolução, capaz de contar histórias e inspirar mudanças.",
