@@ -11,11 +11,13 @@ export default function About() {
         <ul>
             <li>Next</li>
             <li>React</li>
+            <li>Nest</li>
+            <li>Node</li>
+            <li>Docker</li>
+            <li>AWS</li>
             <li>Typescript/Javascript</li>
             <li>Tailwind</li>
-            <li>git</li>
             <li>Sql</li>
-            <li>Node</li>
         </ul>
 
         <h3>Alguns pontos chave</h3>
@@ -26,7 +28,6 @@ export default function About() {
             <li>Compromisso com a Qualidade e Aprendizado Contínuo</li>
             <li>Foco em Qualidade e Excelência</li>
         </ul>
-        <p>Quando não estou no computador, costumo me exercitar, jogar fortnite ou sair com os amigos.</p>
         <a href={meuCv} download="bryan_fernandes-cv.pdf">veja meu cv</a>
     </section>
 }

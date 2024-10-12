@@ -42,8 +42,8 @@ function App() {
         <div className='resume'>
           <div className='introduction'>
             <h1>Bryan Fernandes</h1>
-            <h2>Frontend developer</h2>
-            <p>Sou um desenvolvedor Frontend dedicado e entusiasta.</p>
+            <h2>Full Stack developer</h2>
+            <p>Sou um desenvolvedor Full Stack dedicado e entusiasta.</p>
           </div>
           <nav className='nav'>
           <a href="#about">
