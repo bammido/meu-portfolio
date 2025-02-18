@@ -1,22 +1,22 @@
 export const experiences = [
-    {
-        description: <p>
-            <ul>
-                <li>
-                    <b>Implementação de novas funcionalidades:</b> Responsável pela concepção, desenvolvimento e implementação de novas funcionalidades em sistemas web utilizando React e Next.js. 
-                </li>
-                <li>
-                    <b>Design de interfaces de usuário:</b> Criação de interfaces intuitivas e responsivas utilizando React.js, TailwindCSS e Styled-components para melhorar a experiência do usuário. 
-                </li>
-                <li>
-                    <b>Integração de APIs:</b> Desenvolvimento e integração de APIs REST e GraphQL, garantindo comunicação eficiente entre o frontend e o backend com Node.js e Typescript. 
-                </li>
-            </ul>
-        </p>,
-        technologies: ["React", "Node", "Typescript", "Next", "Nest", "SQL", "Docker", "AWS", "Type ORM", "Sequelize", "Gitflow"],
-        title: "Desenvolvedor Web - Framework Digital - Estágio",
-        period: "OUT/2022 - SET/2024"
-    },
+    // {
+    //     description: <p>
+    //         <ul>
+    //             <li>
+    //                 <b>Implementação de novas funcionalidades:</b> Responsável pela concepção, desenvolvimento e implementação de novas funcionalidades em sistemas web utilizando React e Next.js. 
+    //             </li>
+    //             <li>
+    //                 <b>Design de interfaces de usuário:</b> Criação de interfaces intuitivas e responsivas utilizando React.js, TailwindCSS e Styled-components para melhorar a experiência do usuário. 
+    //             </li>
+    //             <li>
+    //                 <b>Integração de APIs:</b> Desenvolvimento e integração de APIs REST e GraphQL, garantindo comunicação eficiente entre o frontend e o backend com Node.js e Typescript. 
+    //             </li>
+    //         </ul>
+    //     </p>,
+    //     technologies: ["React", "Node", "Typescript", "Next", "Nest", "SQL", "Docker", "AWS", "Type ORM", "Sequelize", "Gitflow"],
+    //     title: "Desenvolvedor Web - Framework Digital - Estágio",
+    //     period: "OUT/2022 - SET/2024"
+    // },
     {
         description: <p>
             <ul>
@@ -33,6 +33,6 @@ export const experiences = [
         </p>,
         technologies: ["React", "Node", "Typescript", "Next", "Nest", "SQL", "Docker", "AWS", "Type ORM", "Sequelize", "Gitflow"],
         title: "Engenheiro de Software - Framework Digital",
-        period: "SET/2024 - PRESENTE"
+        period: "OUT/2022 - PRESENTE"
     }
 ]

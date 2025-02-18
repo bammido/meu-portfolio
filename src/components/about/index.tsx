@@ -4,7 +4,7 @@ import meuCv from '../../assets/cv_bryan_fernandes.pdf'
 export default function About() {
     return <section className="about" id="about">
         <h2>Sobre mim</h2>
-        <p>Sou um entusiasta de tecnologia e desenvolvedor Fullstack apaixonado por criar soluções inovadoras e enfrentar desafios complexos. Atualmente, estou perseguindo meu diploma em Ciências da Computação, buscando aprofundar meu conhecimento técnico e aplicá-lo em projetos significativos.</p>
+        <p>Sou um desenvolvedor Fullstack apaixonado por criar soluções inovadoras e enfrentar desafios complexos. Atualmente, buscando aprofundar meu conhecimento técnico e aplicá-lo em projetos significativos.</p>
         
         
         <h3>Principais Tecnologias</h3>
