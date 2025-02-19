@@ -2,10 +2,18 @@ import ProjectCard from './project-card'
 import './style.css'
 import eleganzaLogo from '../../assets/images/eleganza-logo-branco.png'
 import flexiDrawLogo from '../../assets/images/FlexiDraw-logo.png'
+import driverSelect from '../../assets/images/DriverSelect-logo.png'
 
 export default function Projects() {
 
     const projects = [
+        {
+            projectLink: "https://drive-select-front.vercel.app/",
+            projectIMG: driverSelect,
+            projectTitle: "DriverSelect",
+            projectResume: "O DriverSelect é um MVP de um aplicativo web de viagens, onde usuários podem solicitar corridas. O objetivo é criar uma plataforma funcional para conectar passageiros e motoristas.",
+            projectTechnologies: ["integração com google places", "supabase", "Tailwind", "React", "Typescript", "Node", "TypeORM", "React Hooks"]
+        },
         {
             projectLink: "https://eleganza-seven.vercel.app/",
             projectIMG: eleganzaLogo,
