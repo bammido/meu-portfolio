@@ -3,10 +3,18 @@ import './style.css'
 import eleganzaLogo from '../../assets/images/eleganza-logo-branco.png'
 import flexiDrawLogo from '../../assets/images/FlexiDraw-logo.png'
 import driverSelect from '../../assets/images/DriverSelect-logo.png'
+import cvScanner from '../../assets/images/CV-Scanner-logo.png'
 
 export default function Projects() {
 
     const projects = [
+        {
+            projectLink: "https://cv-scanner-web.vercel.app/",
+            projectIMG: cvScanner,
+            projectTitle: "CVScanner",
+            projectResume: "O DriverSelect é um MVP de um aplicativo web que usa a IA para analisar currículos, atribuir notas com base no modelo ATS e fornecer feedbacks detalhados para ajudar candidatos a aprimorar seus currículos e aumentar suas chances no mercado de trabalho.",
+            projectTechnologies: ["IA", "gemini", "Tailwind", "React", "Typescript", "Nest", "React Hooks"]
+        },
         {
             projectLink: "https://drive-select-front.vercel.app/",
             projectIMG: driverSelect,
