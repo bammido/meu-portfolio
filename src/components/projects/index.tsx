@@ -8,7 +8,7 @@ import cvScanner from '../../assets/images/CV-Scanner-logo.png';
 export default function Projects() {
   const projects = [
     {
-      projectLink: 'https://cv-scanner-web.vercel.app/',
+      projectLink: 'https://github.com/bammido/CV-Scanner',
       projectIMG: cvScanner,
       projectTitle: 'CVScanner',
       projectResume:
